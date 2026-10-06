@@ -1,0 +1,9 @@
+1. Find Local Subnet
+	Terminal Command:
+		ip a
+2. Run Nmap Ping Scan
+	sudo nmap -sn [network interface's ip]/[subnet mask] 
+	sudo arp-scan --localnet 
+	sudo netdiscover -r [network interface's ip]/[subnet mask]
+
+
